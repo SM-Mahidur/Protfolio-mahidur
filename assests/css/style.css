@@ -1,0 +1,162 @@
+/* Reset Section. */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.btn:hover{
+    background-color: red;
+    transition: .5s;
+}
+
+
+/* Body Font Section. */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Veriable Section. */
+:root{
+        --h2colour:#385F96;
+        --navtext-colour:#385F96;
+        --button-textcolour:#FFFFFF;
+        --button-colour:#385F96;
+        --button-radius:30px;
+        --para-colour:#4E4E4E;
+        --footer-colour:#385F96;
+}
+
+/* All website container section. */
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+
+/* Header SEction. */
+.headerwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav{
+
+}
+nav ul{
+    display: flex;
+    gap:29px;
+    margin: 55px 142px;
+}
+.headingcontent{
+    font-size: 48px;
+    color: var(--h2colour);
+}
+nav ul li a{
+    color: var(--navtext-colour);
+    font-size: 20px;
+}
+.btn{
+    color: var(--button-textcolour);
+    background-color: var(--button-colour);
+    border-radius: 30px;
+    padding: 14px 41px 14px 41px;
+    
+}
+
+
+/* Hero Section. */
+.herowrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:245px;
+}
+
+.herowrapper>*{
+    flex-basis: 100%;
+    margin: 200px 0;
+}
+.heroheading{
+            margin-top: -60px;
+            font-size: 48px;
+            color: var(--h2colour);
+}
+.herop{
+    margin: 30px 0;
+    font-size: 16px;
+}
+.herooverflow {
+    margin-bottom: -43px;
+    margin-left: -72px;
+}
+
+
+/* About Section */
+.aboutwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+}
+.aboutwrapper>*{
+    flex-basis: 100%;
+    gap: 166px;
+}
+
+.aboutheading{
+    color: var(--h2colour);
+    font-size: 36px;
+}
+.aboutp{
+        margin: 29px 0;
+        font-size: 16px;
+        color: var(--para-colour);
+}
+
+
+
+/* Project Section. */
+.projectwrapper{
+           
+}
+.projectwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:222px;
+
+}
+.projectwrapper>*{
+                flex-basis: 100%;
+}
+.projecth2{
+    margin: 28px 0;
+    font-size: 36px;
+    color: var(--h2colour);
+}
+.projectbtn{
+   
+}
+
+
+/* Footer Section. */
+.footerwrapper{
+    max-height: 75px;
+    background:var(--footer-colour);
+    padding: 20px 0;
+    text-align: center;
+    color: var(--button-textcolour);
+}
